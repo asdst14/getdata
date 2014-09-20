@@ -24,6 +24,8 @@ After the loading the different data partitions are combined:
 * rbind combines the train and test partitions,
 * cbind combines the columns in one data set. 
 
+The arrangement of the different data partitions is done by using the figure of David Hood (https://class.coursera.org/getdata-007/forum/thread?thread_id=49#comment-570). 
+
 The entire data set is stored a the data frame called "data". 
 
 ## Step 2: Labeling the columns
