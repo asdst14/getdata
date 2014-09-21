@@ -9,7 +9,7 @@ The data set shows information about activities of different persons recorded wi
 
 The data set contains 180 observations and 68 variables in 181 rows; the first row contains the column names.
 
-## Information about variables
+## Information about the variables
 
 ### Class variables
 
