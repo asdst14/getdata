@@ -27,7 +27,7 @@ A factor variable with six levels storing the different activities; each person 
 
 ### Interval variables
 
-The raw sensor signals are pre-processed in the original data set. As a result, the acceleration signal was separated into measurements of the body acceleration (e.g. tBodyAcc) and the gravity acceleration (e.g. tGravityAcc). In addition, there were calculated Jerk signals and the magnitude of these signals (e.g. tBodyAccJerk, tGravityAccMag). Finally, another transformation (Fast Fourier Transform) was applied to some of the signals, they have an initial f to indicate frequency domain signals. 
+The raw sensor signals are pre-processed in the original data set. As a result, the acceleration signal was separated into measurements of the body acceleration (e.g. tBodyAcc) and the gravity acceleration (e.g. tGravityAcc). In addition, Jerk signals and the magnitude of these signals were calculated (e.g. tBodyAccJerk, tGravityAccMag). Finally, another transformation (Fast Fourier Transform) was applied to some of the signals, they have an initial f to indicate frequency domain signals. 
 
 These variables in the original data set are holding information about several measurements of an activity for each person. The data set "tidydata.txt" summarizes theses measurements calculating the mean of each measure grouped by persons and activities. The resulting variables show for each person the mean of the original signals for each activity.
 
