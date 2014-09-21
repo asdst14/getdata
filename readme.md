@@ -34,7 +34,7 @@ Task 2 aims at selecting only variables with the measurements mean() and std(). 
 
 ## Step 3: Extracting the relevant measurements
 
-Using the select-function of the dplyr package the script extracts the columns containing "mean()" and "std()" in their names, columns with "angle" and "meanFreq" are removed in this step. As a result, the data frame only contains the variables with measurements and calculations from the accelerometer and the gyroscope. 
+Using the select-function of the dplyr package the script extracts the columns containing "mean()" and "std()" in their names. Columns with "angle" and "meanFreq" are removed in this step, because they are also derived from the original values and are not required concering the task.
 
 The data frame data2 stores the theses variables as well as the information about the subject and the activity_id. 
 
