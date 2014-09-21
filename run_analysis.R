@@ -52,6 +52,10 @@ data2 <- cbind(data$subject, data$activity_id, data_mean, data_std)
 colnames(data2)[1] <- c("subject")
 colnames(data2)[2] <- c("activity_id")
 
+## Remove variables containing "angle" and "meanFreq"
+data2 <- select(data2, -contains("angle"))
+data2 <- select(data2, -contains("meanFreq"))
+
 ## TASK 3
 ## Integrate activity labels instead of ids
 data3 <- join(act_labels, data2, by="activity_id")    ### optional: mapvalues()
