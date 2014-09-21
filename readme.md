@@ -26,7 +26,7 @@ After the loading, the different data partitions are combined:
 
 The arrangement of the different data partitions is done by using the figure of David Hood (https://class.coursera.org/getdata-007/forum/thread?thread_id=49#comment-570). 
 
-The entire data set is stored a the data frame called "data". 
+The entire data set is stored in a the data frame called "data". 
 
 ## Step 2: Labeling the columns
 
