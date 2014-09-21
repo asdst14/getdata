@@ -14,7 +14,7 @@ This readme introduces the R script for building the tidy data set within the ge
 
 ## Libraries
 
-The script uses the libraries plyr, dplyr and tidyr and loads them in an initial step. 
+The script uses the libraries plyr, dplyr and tidyr and loads them as an initial step. 
 
 ## Step 1: Creating the data set
 
