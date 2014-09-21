@@ -40,7 +40,7 @@ The data frame data2 stores theses variables as well as the information about th
 
 ## Step 4: Integrating activity labels
 
-The column activity_id contains different numbers representing a specific activity. The label for each activity number ist stored in act_labels. To integrate the activity labels in the data set instead of the numbers, the script uses the join-function and combines the data frames act_labels and data2 by the column activity_id. Afterwards, the unnecessary column activity_id is removed from the new data set data3. 
+The column activity_id contains different numbers representing a specific activity. The label for each activity number is stored in act_labels. To integrate the activity labels in the data set instead of the numbers, the script uses the join-function and combines the data frames act_labels and data2 by the column activity_id. Afterwards, the unnecessary column activity_id is removed from the new data set data3. 
 
 ## Step 5: Creating and writing the tidy data set
 
