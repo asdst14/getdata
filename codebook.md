@@ -31,7 +31,8 @@ The raw sensor signals are pre-processed in the original data set. As a result, 
 
 These variables in the original data set are holding information about several measurements of an activity for each person. The data set "tidydata.txt" summarizes theses measurements calculating the mean and the standard deviation grouped by persons and activities. The resulting variables show for each person the mean and the standard deviation of the origianl signals for each activity.
 
-The names of the variables contain additional information about the derived measure like mean() or std(); XYZ stands for each axis of the 3-dimensional signals. The interval variables are named like the following:
+The names of the variables contain additional information about the derived measure like mean() or std(); XYZ stands for each axis of the 3-dimensional signals. The values of the variables are between -1 and +1.
+The interval variables are named like the following:
 
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
