@@ -44,4 +44,4 @@ The column activity_id contains different numbers representing a specific activi
 
 ## Step 5: Creating and writing the tidy data set
 
-The tidy data set is required to save only the means of the measured values for each activity and each subject. The data set is grouped by subject and activity using the group_by-function of the dplyr library. Afterwards, the script uses the function summarise_each to calculate the means of each variable regarding the two groups. The resulting data set is stored in the data frame tidydata and written as a txt-file into the working directory. 
+The tidy data set is required to save only the means of the measured values for each activity and each subject. Therefore, the data set is grouped by subject and activity using the group_by-function of the dplyr library. Afterwards, the script uses the function summarise_each to calculate the means of each variable regarding the two groups. The resulting data set is stored in the data frame tidydata and written as a txt-file into the working directory. 
