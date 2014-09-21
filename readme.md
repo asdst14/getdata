@@ -36,7 +36,7 @@ Task 2 aims at selecting only variables with the measurements mean() and std(). 
 
 Using the select-function of the dplyr package the script extracts the columns containing "mean()" and "std()" in their names. Columns with "angle" and "meanFreq" are removed in this step, because they are also derived from the original values and are not required concering the task.
 
-The data frame data2 stores the theses variables as well as the information about the subject and the activity_id. 
+The data frame data2 stores theses variables as well as the information about the subject and the activity_id. 
 
 ## Step 4: Integrating activity labels
 
