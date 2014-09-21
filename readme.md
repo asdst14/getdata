@@ -20,7 +20,7 @@ The script uses the libraries plyr, dplyr and tidyr and loads them as an initial
 
 As preparation for task 1, the script loads the different data sets from the directory "UCI HAR Dataset", a subdirectory of the working directory. The data frames train and test contain the raw data with the measured values. The data frames starting with "sub" and "act" contain information about subjects and activities for the train and test partitions. The labels for the variable names are stored in ftr, the labels for the activites are stored in act_labels. The columns of act_labels are renamed to ensure the correct replacement of the activity_ids in the data set in a later step. 
 
-After the loading the different data partitions are combined:
+After the loading, the different data partitions are combined:
 * rbind combines the train and test partitions,
 * cbind combines the columns in one data set. 
 
